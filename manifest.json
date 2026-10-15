@@ -1,0 +1,1001 @@
+[
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-logo-horizontal-claro.svg",
+    "marca": "mae",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-logo-horizontal-claro-2400.png",
+    "marca": "mae",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-logo-horizontal-escuro.svg",
+    "marca": "mae",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-logo-horizontal-escuro-2400.png",
+    "marca": "mae",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-logo-horizontal-creme.svg",
+    "marca": "mae",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "creme",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-logo-horizontal-creme-2400.png",
+    "marca": "mae",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "creme",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-logo-horizontal-tinta.svg",
+    "marca": "mae",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "tinta",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-logo-horizontal-tinta-2400.png",
+    "marca": "mae",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "tinta",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-logo-horizontal-mono-preto.svg",
+    "marca": "mae",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "mono-preto",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-logo-horizontal-mono-branco.svg",
+    "marca": "mae",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "mono-branco",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-icone-aurora-claro.svg",
+    "marca": "mae",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-icone-aurora-claro-1024.png",
+    "marca": "mae",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-icone-aurora-escuro.svg",
+    "marca": "mae",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-icone-aurora-escuro-1024.png",
+    "marca": "mae",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-avatar-quadrado-claro.svg",
+    "marca": "mae",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-avatar-quadrado-claro-1024.png",
+    "marca": "mae",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-avatar-quadrado-claro-512.png",
+    "marca": "mae",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "512"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-avatar-pleno-claro.svg",
+    "marca": "mae",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-avatar-pleno-claro-1024.png",
+    "marca": "mae",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-avatar-quadrado-escuro.svg",
+    "marca": "mae",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-avatar-quadrado-escuro-1024.png",
+    "marca": "mae",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-avatar-quadrado-escuro-512.png",
+    "marca": "mae",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "512"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-avatar-pleno-escuro.svg",
+    "marca": "mae",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-avatar-pleno-escuro-1024.png",
+    "marca": "mae",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-compacto-claro.svg",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-compacto-claro-16.png",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "16"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-compacto-claro-32.png",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "32"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-compacto-claro-48.png",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "48"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-padrao-claro.svg",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-padrao-claro-180.png",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "180"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-compacto-escuro.svg",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-compacto-escuro-16.png",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "16"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-compacto-escuro-32.png",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "32"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-compacto-escuro-48.png",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "48"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-padrao-escuro.svg",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/01-nucleo/mindrise-mae-favicon-padrao-escuro-180.png",
+    "marca": "mae",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "180"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-logo-horizontal-claro.svg",
+    "marca": "ia",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-logo-horizontal-claro-2400.png",
+    "marca": "ia",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-logo-horizontal-escuro.svg",
+    "marca": "ia",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-logo-horizontal-escuro-2400.png",
+    "marca": "ia",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-logo-horizontal-creme.svg",
+    "marca": "ia",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "creme",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-logo-horizontal-creme-2400.png",
+    "marca": "ia",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "creme",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-logo-horizontal-tinta.svg",
+    "marca": "ia",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "tinta",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-logo-horizontal-tinta-2400.png",
+    "marca": "ia",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "tinta",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-logo-horizontal-mono-preto.svg",
+    "marca": "ia",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "mono-preto",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-logo-horizontal-mono-branco.svg",
+    "marca": "ia",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "mono-branco",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-icone-aurora-claro.svg",
+    "marca": "ia",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-icone-aurora-claro-1024.png",
+    "marca": "ia",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-icone-aurora-escuro.svg",
+    "marca": "ia",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-icone-aurora-escuro-1024.png",
+    "marca": "ia",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-avatar-quadrado-claro.svg",
+    "marca": "ia",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-avatar-quadrado-claro-1024.png",
+    "marca": "ia",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-avatar-quadrado-claro-512.png",
+    "marca": "ia",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "512"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-avatar-pleno-claro.svg",
+    "marca": "ia",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-avatar-pleno-claro-1024.png",
+    "marca": "ia",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-avatar-quadrado-escuro.svg",
+    "marca": "ia",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-avatar-quadrado-escuro-1024.png",
+    "marca": "ia",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-avatar-quadrado-escuro-512.png",
+    "marca": "ia",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "512"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-avatar-pleno-escuro.svg",
+    "marca": "ia",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-avatar-pleno-escuro-1024.png",
+    "marca": "ia",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-compacto-claro.svg",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-compacto-claro-16.png",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "16"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-compacto-claro-32.png",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "32"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-compacto-claro-48.png",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "48"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-padrao-claro.svg",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-padrao-claro-180.png",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "180"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-compacto-escuro.svg",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-compacto-escuro-16.png",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "16"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-compacto-escuro-32.png",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "32"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-compacto-escuro-48.png",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "48"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-padrao-escuro.svg",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/ia/mindrise-ia-favicon-padrao-escuro-180.png",
+    "marca": "ia",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "180"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-logo-horizontal-claro.svg",
+    "marca": "tech",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-logo-horizontal-claro-2400.png",
+    "marca": "tech",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-logo-horizontal-escuro.svg",
+    "marca": "tech",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-logo-horizontal-escuro-2400.png",
+    "marca": "tech",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-logo-horizontal-creme.svg",
+    "marca": "tech",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "creme",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-logo-horizontal-creme-2400.png",
+    "marca": "tech",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "creme",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-logo-horizontal-tinta.svg",
+    "marca": "tech",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "tinta",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-logo-horizontal-tinta-2400.png",
+    "marca": "tech",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "tinta",
+    "formato": "png",
+    "tamanho": "2400"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-logo-horizontal-mono-preto.svg",
+    "marca": "tech",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "mono-preto",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-logo-horizontal-mono-branco.svg",
+    "marca": "tech",
+    "tipo": "logo",
+    "variante": "horizontal",
+    "fundo": "mono-branco",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-icone-aurora-claro.svg",
+    "marca": "tech",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-icone-aurora-claro-1024.png",
+    "marca": "tech",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-icone-aurora-escuro.svg",
+    "marca": "tech",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-icone-aurora-escuro-1024.png",
+    "marca": "tech",
+    "tipo": "icone",
+    "variante": "aurora",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-avatar-quadrado-claro.svg",
+    "marca": "tech",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-avatar-quadrado-claro-1024.png",
+    "marca": "tech",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-avatar-quadrado-claro-512.png",
+    "marca": "tech",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "512"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-avatar-pleno-claro.svg",
+    "marca": "tech",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-avatar-pleno-claro-1024.png",
+    "marca": "tech",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-avatar-quadrado-escuro.svg",
+    "marca": "tech",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-avatar-quadrado-escuro-1024.png",
+    "marca": "tech",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-avatar-quadrado-escuro-512.png",
+    "marca": "tech",
+    "tipo": "avatar",
+    "variante": "quadrado",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "512"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-avatar-pleno-escuro.svg",
+    "marca": "tech",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-avatar-pleno-escuro-1024.png",
+    "marca": "tech",
+    "tipo": "avatar",
+    "variante": "pleno",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "1024"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-compacto-claro.svg",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-compacto-claro-16.png",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "16"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-compacto-claro-32.png",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "32"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-compacto-claro-48.png",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "48"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-padrao-claro.svg",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "claro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-padrao-claro-180.png",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "claro",
+    "formato": "png",
+    "tamanho": "180"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-compacto-escuro.svg",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-compacto-escuro-16.png",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "16"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-compacto-escuro-32.png",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "32"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-compacto-escuro-48.png",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "compacto",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "48"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-padrao-escuro.svg",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "escuro",
+    "formato": "svg",
+    "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/02-newsletters/tech/mindrise-tech-favicon-padrao-escuro-180.png",
+    "marca": "tech",
+    "tipo": "favicon",
+    "variante": "padrao",
+    "fundo": "escuro",
+    "formato": "png",
+    "tamanho": "180"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-banner-linkedin-creme.svg",
+    "formato": "svg",
+    "tamanho": "vetor",
+    "marca": "ia",
+    "tipo": "banner",
+    "variante": "linkedin",
+    "fundo": "creme"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-banner-linkedin-creme-1512.png",
+    "formato": "png",
+    "tamanho": "1512",
+    "marca": "ia",
+    "tipo": "banner",
+    "variante": "linkedin",
+    "fundo": "creme"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-banner-linkedin-creme-3024.png",
+    "formato": "png",
+    "tamanho": "3024",
+    "marca": "ia",
+    "tipo": "banner",
+    "variante": "linkedin",
+    "fundo": "creme"
+  }
+]
