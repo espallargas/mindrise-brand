@@ -970,5 +970,32 @@
     "fundo": "escuro",
     "formato": "png",
     "tamanho": "180"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-banner-linkedin-creme.svg",
+    "formato": "svg",
+    "tamanho": "vetor",
+    "marca": "ia",
+    "tipo": "banner",
+    "variante": "linkedin",
+    "fundo": "creme"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-banner-linkedin-creme-1512.png",
+    "formato": "png",
+    "tamanho": "1512",
+    "marca": "ia",
+    "tipo": "banner",
+    "variante": "linkedin",
+    "fundo": "creme"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-banner-linkedin-creme-3024.png",
+    "formato": "png",
+    "tamanho": "3024",
+    "marca": "ia",
+    "tipo": "banner",
+    "variante": "linkedin",
+    "fundo": "creme"
   }
 ]

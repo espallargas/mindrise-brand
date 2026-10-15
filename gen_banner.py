@@ -23,7 +23,7 @@ W, H = 1512, 256
 # o miolo seguro fica em x 153-1359 e y 28-228.
 SAFE_X0, SAFE_X1, SAFE_Y0, SAFE_Y1 = 460, 1359, 40, 216
 
-STATEMENT = ["As notícias de IA que importam,", "todo dia, em 5 minutos."]
+STATEMENT = ["As notícias de IA que importam,", "nos dias úteis, em 5 minutos."]
 TEXT_SIZE = 26
 LEAD = 37
 
