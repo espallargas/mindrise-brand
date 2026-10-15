@@ -1,0 +1,32 @@
+{
+  "capa": {
+    "titulo": "O Gemini ganhou e-mail e agenda próprios",
+    "rotulo": "As 3 notícias de IA que importam"
+  },
+  "noticias": [
+    {
+      "empresa": "GOOGLE",
+      "manchete": "Gemini vira colega de trabalho, com e-mail e agenda próprios",
+      "texto": "O agente recebe um objetivo e executa sozinho tarefas que levam horas ou dias. Começa em teste fechado e depois entra no Gemini Enterprise, sem custo extra, segundo o Google.",
+      "por_que_importa": "O Google não chega primeiro, mas chega com o Gmail, a agenda e o Drive em que muita empresa já trabalha, e aceita o Claude, de uma rival. A briga passa a ser por onde o agente mora, mais do que por qual modelo ele usa."
+    },
+    {
+      "empresa": "ANTHROPIC",
+      "manchete": "Anthropic põe o Claude para defender redes de energia e água",
+      "texto": "A Cyber Mission leva os modelos Claude mais avançados, engenheiros em campo e pesquisa de ameaças a quem protege redes elétricas, de água e de transporte.",
+      "numero": {"valor": "11", "legenda": "parceiros fundadores, entre eles CrowdStrike, Palo Alto Networks e Deloitte"},
+      "por_que_importa": "Ferramenta que acha falha serve para defender e para atacar, e a Anthropic decidiu entregar primeiro a quem defende. Achar a vulnerabilidade é a parte mais fácil: consertar é que leva meses."
+    },
+    {
+      "empresa": "OPENAI",
+      "manchete": "Receita da OpenAI fica US$ 20 bi abaixo do número que circulava",
+      "texto": "A OpenAI disse a investidores que a receita anualizada está perto de US$ 50 bilhões, segundo o Financial Times, citado pelo TechCrunch. No fim de setembro, circulava a estimativa de US$ 70 bilhões.",
+      "numero": {"valor": "US$ 50 bi", "legenda": "receita anualizada, segundo o Financial Times, citado pelo TechCrunch"},
+      "por_que_importa": "A comparação com a Anthropic junta números feitos de jeitos diferentes: a Anthropic inclui o que vende pelas nuvens parceiras, e a OpenAI, não. Com a abertura de capital prevista para o começo de 2027, esses números viram balanço auditado."
+    }
+  ],
+  "fechamento": {
+    "titulo": "Receba isso nos dias úteis, em 5 minutos.",
+    "endereco": "mindrisenews.beehiiv.com"
+  }
+}

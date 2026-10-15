@@ -997,5 +997,14 @@
     "tipo": "banner",
     "variante": "linkedin",
     "fundo": "creme"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-carrossel-exemplo-creme.pdf",
+    "marca": "ia",
+    "tipo": "carrossel",
+    "variante": "exemplo",
+    "fundo": "creme",
+    "formato": "pdf",
+    "tamanho": "1080x1350"
   }
 ]
