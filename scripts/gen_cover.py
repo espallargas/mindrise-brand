@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera capas de post (imagem única, 1200 x 627 px) a partir de um JSON de uma notícia.
+"""Gera capas de post (imagem única, 1200 x 630 px) a partir de um JSON de uma notícia.
 
 Uso:  python3 scripts/gen_cover.py cover/exemplo-2026-10-14.json [pasta de saída]
 Variantes: manchete (creme), numero (creme, número grande), escuro (tinta, manchete).
@@ -9,7 +9,7 @@ import json, pathlib, sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import gen_logo as g
 
-W, H, M = 1200, 627, 72
+W, H, M = 1200, 630, 72
 REG = g.ROOT / "fonts" / "LiberationSans-Regular.ttf"
 PLUM_DARK, PLUM_LIGHT = g.hexof("color.accent.ia.dark"), g.hexof("color.accent.ia.light")
 GRAY = g.hexof("color.neutral.warm-gray")
