@@ -4,6 +4,8 @@ Fonte única da identidade visual da **mindrise.** e de suas newsletters: tokens
 
 ![Showcase dos logos](docs/showcase.png)
 
+**[Galeria completa dos assets](GALLERY.md)**. Cada pasta de `assets/` também tem um README com miniaturas.
+
 ## Paleta
 
 ![Paleta](docs/palette.png)
@@ -25,7 +27,7 @@ A newsletter de tech é provisória. Valores em `tokens/tokens.json`.
 | Pasta | Conteúdo |
 | --- | --- |
 | `tokens/` | `tokens.json` no padrão W3C DTCG 2025.10: cores, geometria, tipografia |
-| `scripts/` | `gen_logo.py` (assets), `gen_showcase.py` (docs), `contrast.py` (WCAG) |
+| `scripts/` | `gen_logo.py` (assets), `gen_showcase.py` e `gen_gallery.py` (docs e galerias), `contrast.py` (WCAG) |
 | `assets/01-nucleo/` | marca-mãe |
 | `assets/02-newsletters/ia/` e `tech/` | uma pasta por newsletter |
 | `assets/03-aplicacoes/` | e-mail, web e redes sociais (Parte 4) |
@@ -39,6 +41,7 @@ A newsletter de tech é provisória. Valores em `tokens/tokens.json`.
 pip install -r requirements.txt
 python3 scripts/gen_logo.py       # SVGs mestres, PNGs e manifest.json
 python3 scripts/gen_showcase.py   # docs/showcase.png e docs/palette.png
+python3 scripts/gen_gallery.py    # docs/previews/, GALLERY.md e README de cada pasta
 python3 scripts/contrast.py       # checagem de contraste
 ```
 
