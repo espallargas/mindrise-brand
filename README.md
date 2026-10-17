@@ -27,11 +27,11 @@ A newsletter de tech é provisória. Valores em `tokens/tokens.json`.
 | Pasta | Conteúdo |
 | --- | --- |
 | `tokens/` | `tokens.json` no padrão W3C DTCG 2025.10: cores, geometria, tipografia |
-| `scripts/` | `gen_logo.py` (assets), `gen_showcase.py` e `gen_gallery.py` (docs e galerias), `contrast.py` (WCAG) |
+| `scripts/` | `gen_logo.py` (assets), `gen_showcase.py` e `gen_gallery.py` (docs e galerias), `contrast.py` (WCAG), `gen_cover.py` (covers com manchete), `gen_carousel.py` (carrossel do LinkedIn), `cover_ilustrado.py` (covers ilustrados: valida, renderiza e nomeia) |
 | `assets/01-nucleo/` | marca-mãe |
 | `assets/02-newsletters/ia/` e `tech/` | uma pasta por newsletter |
 | `assets/03-aplicacoes/` | e-mail, web e redes sociais (Parte 4) |
-| `assets/04-templates/` | modelos de banner, capa e carrossel (Parte 4) |
+| `assets/04-templates/` | modelos de banner, cover e carrossel (Parte 4) |
 | `assets/manifest.json` | lista de todos os arquivos com seus metadados |
 | `fonts/` | Gelasio (wordmark) e Liberation Sans (etiqueta), ambas OFL |
 
@@ -45,6 +45,18 @@ python3 scripts/gen_gallery.py    # docs/previews/, GALLERY.md e README de cada 
 python3 scripts/contrast.py       # checagem de contraste
 ```
 
+## Covers e carrossel das edições
+
+Os JSONs de `cover/` e `carousel/` são só exemplos de formato: o conteúdo de cada dia não fica neste repositório. A saída de cada edição vai para o repositório `mindrise-editions`, passando a pasta de saída como último argumento:
+
+```
+python3 scripts/gen_cover.py <json do dia> <pasta de saída>
+python3 scripts/gen_carousel.py <json do dia> <pasta de saída>
+python3 scripts/cover_ilustrado.py gerar <svg> --data AAAA-MM-DD --fundo <fundo> --motivo <motivo> --ideia "<frase>" --titulo "<evento>" --empresa <empresa> --categoria <categoria> --editions-dir <pasta editions>
+```
+
+Sem pasta de saída, `gen_cover.py` e `gen_carousel.py` gravam em `assets/03-aplicacoes/social` e atualizam o manifest. `cover_ilustrado.py` nunca grava neste repositório. As regras dos covers ilustrados estão no Brand book (Aplicações).
+
 O **SVG é a fonte**. PNG e favicon são derivados por script e nunca editados à mão. Para mudar uma cor ou medida, edite `tokens/tokens.json` e rode o gerador.
 
 ## Nome dos arquivos
@@ -54,9 +66,9 @@ O **SVG é a fonte**. PNG e favicon são derivados por script e nunca editados �
 | Campo | Valores |
 | --- | --- |
 | marca | `mae`, `ia`, `tech` |
-| tipo | `logo`, `icone`, `avatar`, `favicon` |
-| variante | `horizontal`, `aurora`, `quadrado`, `pleno`, `compacto`, `padrao` |
-| fundo | `claro` e `escuro` (canvas transparente, para usar sobre fundo claro ou escuro); `creme` e `tinta` (com fundo sólido); `mono-preto` e `mono-branco` |
+| tipo | `logo`, `icone`, `avatar`, `favicon`, `cover`, `carrossel` |
+| variante | `horizontal`, `aurora`, `quadrado`, `pleno`, `compacto`, `padrao`; em `cover`: `manchete`, `numero`, `escuro` (com texto) e `ilustrado` (sem texto) |
+| fundo | `claro` e `escuro` (canvas transparente, para usar sobre fundo claro ou escuro); `creme` e `tinta` (com fundo sólido); `mono-preto` e `mono-branco`; só nos covers ilustrados, também `lavanda`, `ameixa-light`, `ameixa-mid` e `ameixa-dark` |
 | tamanho | largura em px no PNG; SVG não leva tamanho |
 
 Exemplo: `mindrise-ia-logo-horizontal-claro-2400.png`.

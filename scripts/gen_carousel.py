@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Gera o carrossel do LinkedIn (PDF, 1080 x 1350 px, 4:5) a partir de um JSON de conteúdo.
 
-Uso:  python3 scripts/gen_carousel.py [carousel/exemplo-2026-10-09.json]
-Saída: assets/03-aplicacoes/social/mindrise-ia-carrossel-{nome}-creme.pdf (+ PNG de cada slide em /tmp/carrossel)
+Uso:  python3 scripts/gen_carousel.py [carousel/exemplo-2026-10-09.json] [pasta de saída]
+Saída: {pasta de saída}/mindrise-ia-carrossel-{nome}-creme.pdf (+ PNG de cada slide em /tmp/carrossel).
+      {nome} é o nome inteiro do JSON, sem a extensão. Sem pasta de saída, grava em assets/03-aplicacoes/social e atualiza
+      assets/manifest.json; com pasta de saída (uso do Distribuidor), não toca neste repositório.
 
 Estrutura: capa, 2 slides por notícia (A: manchete e texto; B: "Por que importa" e número), fechamento.
 Todo texto vem da edição já revisada. Fontes: Gelasio Bold (no lugar da Georgia) e Liberation Sans (no lugar da Helvetica).
@@ -92,11 +94,16 @@ def build(c):
 
 def main():
     src = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "carousel" / "exemplo-2026-10-09.json"
-    name = src.stem.split("-")[0]
+    name = src.stem
     c = json.loads(src.read_text())
-    out = ROOT / "assets" / "03-aplicacoes" / "social" / f"mindrise-ia-carrossel-{name}-creme.pdf"
+    padrao = ROOT / "assets" / "03-aplicacoes" / "social"
+    pasta = pathlib.Path(sys.argv[2]) if len(sys.argv) > 2 else padrao
+    out = pasta / f"mindrise-ia-carrossel-{name}-creme.pdf"
     out.parent.mkdir(parents=True, exist_ok=True)
     HTML(string=build(c), base_url=str(ROOT)).write_pdf(str(out))
+    if pasta != padrao:
+        print(out)
+        return
     mf = ROOT / "assets" / "manifest.json"
     data = json.loads(mf.read_text()) if mf.exists() else []
     rel = str(out.relative_to(ROOT))

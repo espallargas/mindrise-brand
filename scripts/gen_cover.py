@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Gera capas de post (imagem única, 1200 x 630 px) a partir de um JSON de uma notícia.
+"""Gera covers de post (imagem única, 1200 x 630 px) a partir de um JSON de uma notícia.
 
 Uso:  python3 scripts/gen_cover.py cover/exemplo-2026-10-14.json [pasta de saída]
-Variantes: manchete (creme), numero (creme, número grande), escuro (tinta, manchete).
+Variantes: manchete (creme), numero (creme, número grande; só se o JSON tiver "numero"), escuro (tinta, manchete).
 Texto em curvas (Gelasio Bold, Liberation Sans). Todo texto vem da edição já revisada.
 """
 import json, pathlib, sys
@@ -67,8 +67,10 @@ def main():
     out = pathlib.Path(sys.argv[2]) if len(sys.argv) > 2 else g.ROOT / "assets" / "03-aplicacoes" / "social"
     out.mkdir(parents=True, exist_ok=True)
     for v in ("manchete", "numero", "escuro"):
+        if v == "numero" and not c.get("numero"):
+            continue  # a variante "numero" só existe quando o JSON traz o campo numero
         svg = build(c, v)
-        stem = out / f"mindrise-ia-capa-{pathlib.Path(sys.argv[1]).stem}-{v}"
+        stem = out / f"mindrise-ia-cover-{pathlib.Path(sys.argv[1]).stem}-{v}"
         stem.with_suffix(".svg").write_text(svg)
         g.cairosvg.svg2png(bytestring=svg.encode(), write_to=str(stem) + "-1200.png", output_width=W)
         g.cairosvg.svg2png(bytestring=svg.encode(), write_to=str(stem) + "-2400.png", output_width=W * 2)
@@ -77,10 +79,10 @@ def main():
             mf = g.ROOT / "assets" / "manifest.json"
             data = json.loads(mf.read_text()) if mf.exists() else []
             nome = pathlib.Path(sys.argv[1]).stem
-            novos = [dict(arquivo=str(f.relative_to(g.ROOT)), marca="ia", tipo="capa", variante=v, fundo="tinta" if v == "escuro" else "creme",
+            novos = [dict(arquivo=str(f.relative_to(g.ROOT)), marca="ia", tipo="cover", variante=v, fundo="tinta" if v == "escuro" else "creme",
                           formato=f.suffix[1:], tamanho="vetor" if f.suffix == ".svg" else f.stem.split("-")[-1])
-                     for f in sorted(out.glob(f"mindrise-ia-capa-{nome}-{v}*"))]
-            data = [d for d in data if not d["arquivo"].startswith(f"assets/03-aplicacoes/social/mindrise-ia-capa-{nome}-{v}")] + novos
+                     for f in sorted(out.glob(f"mindrise-ia-cover-{nome}-{v}*"))]
+            data = [d for d in data if not d["arquivo"].startswith(f"assets/03-aplicacoes/social/mindrise-ia-cover-{nome}-{v}")] + novos
             mf.write_text(json.dumps(data, indent=2, ensure_ascii=False))
 
 if __name__ == "__main__":
