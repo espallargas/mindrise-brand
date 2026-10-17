@@ -999,15 +999,6 @@
     "fundo": "creme"
   },
   {
-    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-carrossel-exemplo-creme.pdf",
-    "marca": "ia",
-    "tipo": "carrossel",
-    "variante": "exemplo",
-    "fundo": "creme",
-    "formato": "pdf",
-    "tamanho": "1080x1350"
-  },
-  {
     "arquivo": "assets/03-aplicacoes/social/mindrise-ia-cover-exemplo-2026-10-14-manchete-1200.png",
     "marca": "ia",
     "tipo": "cover",
@@ -1087,5 +1078,14 @@
     "fundo": "tinta",
     "formato": "svg",
     "tamanho": "vetor"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-carrossel-exemplo-2026-10-09-creme.pdf",
+    "marca": "ia",
+    "tipo": "carrossel",
+    "variante": "exemplo-2026-10-09",
+    "fundo": "creme",
+    "formato": "pdf",
+    "tamanho": "1080x1350"
   }
 ]
