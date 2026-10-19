@@ -45,7 +45,8 @@ body {{ font-family: 'Lib'; color: {INK}; }}
 .label {{ font-weight: 700; font-size: 30px; letter-spacing: 0.2em; text-transform: uppercase; color: {PLUM_DARK}; margin-bottom: 36px; }}
 h1 {{ font-family: 'Gel'; font-weight: 700; font-size: 74px; line-height: 1.12; margin-bottom: 52px; }}
 p.t {{ font-size: 42px; line-height: 1.5; }}
-.box {{ position: absolute; left: 0; right: 0; bottom: 0; background: {LAV}; border-left: 8px solid {PLUM_MID}; border-radius: 6px; padding: 52px 56px; }}
+.pq h1 {{ margin-bottom: 40px; }}
+.box {{ margin-top: 20px; background: {LAV}; border-left: 8px solid {PLUM_MID}; border-radius: 6px; padding: 52px 56px; }}
 .box b {{ display: block; font-size: 30px; letter-spacing: 0.04em; margin-bottom: 22px; }}
 .box p {{ font-size: 40px; line-height: 1.45; }}
 .big {{ font-family: 'Gel'; font-weight: 700; font-size: 150px; line-height: 1; color: {PLUM_DARK}; }}
@@ -80,12 +81,14 @@ def build(c):
         s.append(f'<div class="s">{chrome(n, total)}<div class="body"><div class="label">{esc(it["empresa"])}</div>'
                  f'<h1>{esc(it["manchete"])}</h1><p class="t">{esc(it["texto"])}</p></div></div>')
         n += 1
-        num = f'<h1 style="font-size:60px;line-height:1.15">{esc(it["manchete"])}</h1>'
+        num = f'<h1 style="font-size:52px;line-height:1.15">{esc(it["manchete"])}</h1>'
         if it.get("numero"):
             num = (f'<div class="big">{esc(it["numero"]["valor"])}</div>'
                    f'<div class="cap">{esc(it["numero"]["legenda"])}</div>')
-        s.append(f'<div class="s">{chrome(n, total)}<div class="body"><div class="label">{esc(it["empresa"])}</div>{num}'
-                 f'<div class="box"><b>Por que importa</b><p>{esc(it["por_que_importa"])}</p></div></div></div>')
+        pq = it["por_que_importa"]
+        fs = 40 if len(pq) < 300 else 36 if len(pq) < 380 else 32
+        s.append(f'<div class="s">{chrome(n, total)}<div class="body pq"><div class="label">{esc(it["empresa"])}</div>{num}'
+                 f'<div class="box"><b>Por que importa</b><p style="font-size:{fs}px">{esc(pq)}</p></div></div></div>')
         n += 1
     f = c["fechamento"]
     s.append(f'<div class="s end"><div class="body" style="top:84px"><img class="logo" src="{img("mindrise-ia-logo-horizontal-claro.svg")}">'
