@@ -1087,5 +1087,32 @@
     "fundo": "creme",
     "formato": "pdf",
     "tamanho": "1080x1350"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-cover-marca-creme.svg",
+    "formato": "svg",
+    "tamanho": "vetor",
+    "marca": "ia",
+    "tipo": "cover",
+    "variante": "marca",
+    "fundo": "creme"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-cover-marca-creme-1200.png",
+    "formato": "png",
+    "tamanho": "1200",
+    "marca": "ia",
+    "tipo": "cover",
+    "variante": "marca",
+    "fundo": "creme"
+  },
+  {
+    "arquivo": "assets/03-aplicacoes/social/mindrise-ia-cover-marca-creme-2400.png",
+    "formato": "png",
+    "tamanho": "2400",
+    "marca": "ia",
+    "tipo": "cover",
+    "variante": "marca",
+    "fundo": "creme"
   }
 ]
