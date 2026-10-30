@@ -40,7 +40,6 @@ body {{ font-family: 'Lib'; color: {INK}; }}
 .s {{ position: relative; width: 1080px; height: 1350px; background: {CREAM}; page-break-after: always; overflow: hidden; }}
 .top {{ position: absolute; left: 96px; top: 84px; right: 96px; height: 72px; }}
 .top img {{ height: 72px; }}
-.n {{ position: absolute; right: 0; top: 24px; font-size: 26px; color: {GRAY}; }}
 .body {{ position: absolute; left: 96px; right: 96px; top: 240px; bottom: 120px; }}
 .label {{ font-weight: 700; font-size: 30px; letter-spacing: 0.2em; text-transform: uppercase; color: {PLUM_DARK}; margin-bottom: 36px; }}
 h1 {{ font-family: 'Gel'; font-weight: 700; font-size: 74px; line-height: 1.12; margin-bottom: 52px; }}
@@ -68,7 +67,8 @@ def esc(s):
     return html.escape(s, quote=False)
 
 def chrome(n, total):
-    return f'<div class="top"><img src="{img("mindrise-ia-icone-aurora-claro.svg")}"><div class="n">{n}/{total}</div></div>'
+    # Sem contador de slides: o LinkedIn e o Instagram já mostram a posição.
+    return f'<div class="top"><img src="{img("mindrise-ia-icone-aurora-claro.svg")}"></div>'
 
 def build(c):
     total = 2 + 2 * len(c["noticias"])
