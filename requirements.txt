@@ -3,3 +3,4 @@ uharfbuzz
 cairosvg
 pillow
 weasyprint
+pymupdf

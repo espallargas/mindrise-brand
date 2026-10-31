@@ -1,0 +1,43 @@
+{
+  "faixa": "ameixa-dark",
+  "capa": {
+    "manchete": "Mistral disponibiliza modelo gigante feito para programar e defender sistemas"
+  },
+  "miolo": [
+    {
+      "tipo": "texto",
+      "rotulo": "O que aconteceu",
+      "titulo": "Qualquer um pode baixar e rodar o Mistral Large 4",
+      "paragrafos": [
+        "A startup francesa Mistral liberou os pesos do Mistral Large 4, de cerca de 1 trilhão de parâmetros, a medida de tamanho do modelo.",
+        "O modelo foi treinado do zero na Europa."
+      ]
+    },
+    {
+      "tipo": "numero",
+      "rotulo": "Desempenho",
+      "valor": "47%",
+      "legenda": "menos tokens que o GLM-5.3, da chinesa Z.ai, com quem empatou na prática",
+      "paragrafos": [
+        "O empate é no índice de agentes de programação da Artificial Analysis, empresa que compara modelos de IA. No ranking geral, o Large 4 ainda fica atrás de seis modelos abertos chineses."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Defesa cibernética",
+      "titulo": "A Europa já testa o modelo",
+      "paragrafos": [
+        "A ENISA, agência de segurança cibernética da União Europeia, já testa o Large 4.",
+        "A Mistral diz que o modelo recusa quase todos os pedidos maliciosos, mas admite que ele ainda pode ajudar em ataques reais."
+      ]
+    }
+  ],
+  "por_que_importa": {
+    "rotulo": "Mistral",
+    "texto": "A Mistral faz do modelo aberto uma questão de controle: quem roda os pesos em casa não precisa de convite para usar o modelo. Na corrida dos modelos abertos entre EUA e China, a Mistral aposta na soberania europeia: quem não quer depender de nenhum dos dois aceita trocar alguns pontos no ranking pelo controle da ferramenta."
+  },
+  "tambem": [
+    "Chrome passa a usar dados do Gmail para preencher formulários",
+    "Google admite que cada pergunta no Modo IA rende menos que na busca tradicional"
+  ]
+}

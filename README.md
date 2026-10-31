@@ -27,7 +27,7 @@ A newsletter de tech é provisória. Valores em `tokens/tokens.json`.
 | Pasta | Conteúdo |
 | --- | --- |
 | `tokens/` | `tokens.json` no padrão W3C DTCG 2025.10: cores, geometria, tipografia |
-| `scripts/` | `gen_logo.py` (assets), `gen_showcase.py` e `gen_gallery.py` (docs e galerias), `contrast.py` (WCAG), `gen_cover.py` (covers com manchete), `gen_carousel.py` (carrossel do LinkedIn), `cover_ilustrado.py` (covers ilustrados: valida, renderiza e nomeia) |
+| `scripts/` | `gen_logo.py` (assets), `gen_showcase.py` e `gen_gallery.py` (docs e galerias), `contrast.py` (WCAG), `gen_cover.py` (covers com manchete), `gen_carousel.py` (carrossel do LinkedIn), `gen_instagram.py` (carrossel 3:4 e story do Instagram), `cover_ilustrado.py` (covers ilustrados: valida, renderiza e nomeia) |
 | `assets/01-nucleo/` | marca-mãe |
 | `assets/02-newsletters/ia/` e `tech/` | uma pasta por newsletter |
 | `assets/03-aplicacoes/` | e-mail, web e redes sociais (Parte 4) |
@@ -52,6 +52,7 @@ Os JSONs de `cover/` e `carousel/` são só exemplos de formato: o conteúdo de 
 ```
 python3 scripts/gen_cover.py <json do dia> <pasta de saída>
 python3 scripts/gen_carousel.py <json do dia> <pasta de saída>
+python3 scripts/gen_instagram.py <json do dia> <pasta de saída>
 python3 scripts/cover_ilustrado.py gerar <svg> --data AAAA-MM-DD --fundo <fundo> --motivo <motivo> --ideia "<frase>" --titulo "<evento>" --empresa <empresa> --categoria <categoria> --editions-dir <pasta editions>
 ```
 
