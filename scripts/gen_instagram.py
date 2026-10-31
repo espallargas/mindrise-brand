@@ -11,6 +11,7 @@ Estrutura (regras na página Aplicações do Brand book, seção "Instagram"):
   2. slides do miolo, um fato por slide: "texto" (rótulo, título, parágrafos) ou "numero" (rótulo, número grande, legenda, parágrafos);
   3. "Por que importa" da principal;
   4. "Também na edição de hoje", com as outras manchetes e a faixa de chamada para o link na bio.
+Área livre: os últimos 160 px de cada slide ficam sem texto, porque o Instagram sobrepõe ali as fotos de quem curtiu ou repostou.
 A faixa alterna entre ameixa-dark e lavanda (campo "faixa"); no ameixa-mid o ponto do logo some, por isso ele não entra.
 Sem contador de slides: o Instagram já mostra a posição.
 Fontes: Gelasio Bold (no lugar da Georgia) e Liberation Sans (no lugar da Helvetica). Precisa de weasyprint e pymupdf.
@@ -70,8 +71,9 @@ p.t {{ font-size: 44px; line-height: 1.5; margin-bottom: 36px; }}
 .cv .label {{ position: absolute; left: 96px; margin: 0; }}
 .cv h1 {{ position: absolute; left: 96px; right: 96px; font-family: 'Gel'; font-weight: 700; line-height: 1.1; }}
 .end ul {{ list-style: none; }}
-.end li {{ font-family: 'Gel'; font-weight: 700; font-size: 56px; line-height: 1.2; padding: 40px 0; border-top: 2px solid {RULE}; }}
-.cta {{ position: absolute; left: 0; right: 0; bottom: 0; height: 360px; padding: 90px 96px; }}
+.end .body {{ top: 260px; }}
+.end li {{ font-family: 'Gel'; font-weight: 700; font-size: 50px; line-height: 1.18; padding: 30px 0; border-top: 2px solid {RULE}; }}
+.cta {{ position: absolute; left: 0; right: 0; bottom: 0; height: 480px; padding: 80px 96px 0; }}
 .cta .a {{ font-family: 'Gel'; font-weight: 700; font-size: 66px; line-height: 1.15; }}
 .cta .b {{ font-size: 36px; margin-top: 24px; }}
 """
@@ -84,7 +86,7 @@ def chrome():
 def capa(c, faixa, story=False):
     bg, logo, fr, _, _ = FAIXAS[faixa]
     # story: tudo desce (o topo da tela fica sob a barra do perfil) e sobra espaço embaixo para o adesivo de link
-    band, ltop, ftop, labtop, htop, hsize = (780, 300, 540, 870, 930, 82) if story else (560, 110, 340, 660, 720, 92)
+    band, ltop, ftop, labtop, htop, hsize = (780, 300, 540, 870, 930, 82) if story else (520, 100, 320, 610, 670, 84)
     return (f'<div class="s cv"><div class="band" style="height:{band}px;background:{bg}"></div>'
             f'<img class="logo" style="top:{ltop}px" src="file://{IA}/{logo}">'
             f'<div class="fr" style="top:{ftop}px;color:{fr}">{e(FRASE)}</div>'
