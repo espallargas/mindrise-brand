@@ -7,7 +7,8 @@ Saída: {pasta}/mindrise-ia-instagram-{nome}-{n}.jpg (um por slide) e {pasta}/mi
       Sem pasta de saída, grava em /tmp/instagram e não toca neste repositório.
 
 Estrutura (regras na página Aplicações do Brand book, seção "Instagram"):
-  1. capa: faixa da marca (logo e frase) em cima, manchete da principal embaixo;
+  1. capa: faixa da marca (logo e frase) em cima, manchete da principal embaixo (geometria fixa em CAPA;
+     "rotulo" opcional na capa, padrão "Hoje na mindrise", para posts do perfil como a apresentação);
   2. slides do miolo, um fato por slide: "texto" (rótulo, título, parágrafos) ou "numero" (rótulo, número grande, legenda, parágrafos);
   3. "Por que importa" da principal;
   4. "Também na edição de hoje", com as outras manchetes e a faixa de chamada para o link na bio.
@@ -83,14 +84,21 @@ e = lambda s: html.escape(s, quote=False)
 def chrome():
     return f'<div class="top"><img src="file://{IA}/mindrise-ia-icone-aurora-claro.svg"></div>'
 
+# Geometria única da capa. Todo post do perfil (edição diária, apresentação, destaque) sai daqui, para a grade ficar alinhada.
+# Não mude estes números sem regerar os posts fixados: a grade mistura posts antigos e novos.
+CAPA = {"band": 520, "ltop": 100, "ftop": 320, "labtop": 610, "htop": 670, "hsize": 84}
+# story: tudo desce (o topo da tela fica sob a barra do perfil) e sobra espaço embaixo para o adesivo de link
+STORY = {"band": 780, "ltop": 300, "ftop": 540, "labtop": 870, "htop": 930, "hsize": 82}
+
 def capa(c, faixa, story=False):
     bg, logo, fr, _, _ = FAIXAS[faixa]
-    # story: tudo desce (o topo da tela fica sob a barra do perfil) e sobra espaço embaixo para o adesivo de link
-    band, ltop, ftop, labtop, htop, hsize = (780, 300, 540, 870, 930, 82) if story else (520, 100, 320, 610, 670, 84)
+    g = STORY if story else CAPA
+    band, ltop, ftop, labtop, htop, hsize = (g[k] for k in ("band", "ltop", "ftop", "labtop", "htop", "hsize"))
+    rotulo = c.get("rotulo", "Hoje na mindrise")
     return (f'<div class="s cv"><div class="band" style="height:{band}px;background:{bg}"></div>'
             f'<img class="logo" style="top:{ltop}px" src="file://{IA}/{logo}">'
             f'<div class="fr" style="top:{ftop}px;color:{fr}">{e(FRASE)}</div>'
-            f'<div class="label" style="top:{labtop}px">Hoje na mindrise</div>'
+            f'<div class="label" style="top:{labtop}px">{e(rotulo)}</div>'
             f'<h1 style="top:{htop}px;font-size:{hsize}px">{e(c["manchete"])}</h1></div>')
 
 def miolo(sl):
