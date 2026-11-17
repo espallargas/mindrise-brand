@@ -4,3 +4,5 @@ cairosvg
 pillow
 weasyprint
 pymupdf
+numpy
+scipy

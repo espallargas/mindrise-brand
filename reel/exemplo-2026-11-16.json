@@ -1,0 +1,14 @@
+{
+  "faixa": "ameixa-dark",
+  "rotulo": "Nvidia",
+  "manchete": "Análise aponta treino de seis modelos chineses em chips proibidos da Nvidia",
+  "sub": "Publicada na última quinta-feira",
+  "numero": {"rotulo": "A pista", "valor": "6",
+             "texto": "modelos abertos chineses com sinais de treino em chips Blackwell",
+             "nota": "Entre eles, o DeepSeek V4 e o Kimi K3.1 Pro."},
+  "itens": {"rotulo": "Onde estava a pista", "lista": [
+    {"destaque": "Arquivos", "texto": "publicados pelos próprios labs, abertos a qualquer um"},
+    {"destaque": "Chip", "texto": "cada tipo deixa um padrão nos números com que o treino começa"}]},
+  "por_que_importa": ["A Casa Branca já acusava a Moonshot. Agora a evidência é pública.",
+                      "Se os chips estavam na China, alguém os contrabandeou."]
+}
